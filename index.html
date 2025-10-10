@@ -14,15 +14,17 @@ layout: default
 <body>
     <h1>Main Page</h1>
 
-    <img src="assets/pibble.jpg" alt="Pibble">
+    <img src="assets/pibble.jpg" alt="pibble">
 
-    <p>Welcome to my website. Please see the links below to navigate to other pages.</p>
+    <p>Welcome to my website. Please make a selection below.</p>
     
-    <nav>
-        <ul>
-            <li><a href="intro.html">Introduction</a></li>
-            <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Youtube</a></li>
-        </ul>
-    </nav>
+    <div class="dropdown-container">
+        <label for="yes-no-select">Do you like this page?</label>
+        <select name="choice" id="yes-no-select">
+            <option value="yes">Yes</option>
+            <option value="no">No</option>
+        </select>
+    </div>
+
 </body>
 </html>
